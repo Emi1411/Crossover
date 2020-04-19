@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CrossOver",
-    "slug": "CrossOver",
+    "slug": "CrossOverRobot",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -20,11 +20,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crossoverrobot.crossoverrobot"
+    },
+    "android": {
+      "package": "com.crossoverrobot.crossoverrobot" 
     }
   }
 }
